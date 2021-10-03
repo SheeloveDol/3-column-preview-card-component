@@ -81,7 +81,7 @@ a {
   border-bottom-right-radius: 1rem;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 748px) {
 
   .grid-container {
     padding: 1rem auto;
