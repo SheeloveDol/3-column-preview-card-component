@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  /* outline: 1px red solid; */
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  color:hsl(0, 0%, 95%);
+  
+}
+
+.grid-container {
+  max-width: 375px;
+  margin: 0 auto
+}
+
+section {
+  /* height: 450px; */
+  max-width: 375px;
+  max-height: 600px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  padding: 1.5em;
+  height: 500px;
+}
+
+
+.info-header {
+  font-size: 1.75em
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6rem;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+a {
+  text-decoration: none;
+  background-color:hsl(0, 0%, 95%);
+  color:hsl(31, 77%, 52%);
+  padding: 1rem 2rem;
+  border-radius: 30px;
+}
+
+
+.suv {
+  color:hsl(184, 100%, 22%)
+}
+
+.lux {
+  color:hsl(179, 100%, 13%)
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.suvs {
+  background-color:hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
