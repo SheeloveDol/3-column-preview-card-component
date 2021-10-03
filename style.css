@@ -80,3 +80,39 @@ a {
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+
+@media screen and (min-width: 376px) {
+
+  .grid-container {
+    padding: 1rem auto;
+    min-width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 600px;
+  
+  }
+
+  section {
+    height: 520px;
+    margin: auto 0;
+  }
+
+  .sedans,
+  .luxury {
+    border-radius: 0;
+  }
+
+  .sedans {
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
+
+  .luxury {
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+
+  .btn {
+    margin-top: 5rem;
+  }
+}
