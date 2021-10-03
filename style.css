@@ -81,7 +81,7 @@ a {
   border-bottom-right-radius: 1rem;
 }
 
-@media screen and (min-width: 748px) {
+@media screen and (min-width: 1074px) {
 
   .grid-container {
     padding: 1rem auto;
@@ -114,5 +114,24 @@ a {
 
   .btn {
     margin-top: 5rem;
+  }
+
+  .sed:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border:2px solid hsl(0, 0%, 95%);
+    
+  }
+
+  .suv:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border:2px solid hsl(0, 0%, 95%);
+  }
+
+  .lux:hover {
+    background-color:hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border:2px solid hsl(0, 0%, 95%);
   }
 }
